@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Vagas de Emprego da Comunidade</title>
+<title>Emprega Caxias - Vagas da Comunidade</title>
 
 <style>
 
@@ -17,21 +17,26 @@ background:#f4f6f8;
 }
 
 header{
-background:#2c6ed5;
-color:white;
-padding:30px;
+background:white;
+padding:20px;
 text-align:center;
+border-bottom:3px solid #e5e5e5;
+}
+
+.logo{
+max-width:400px;
+margin-bottom:10px;
 }
 
 .container{
-max-width:1100px;
+max-width:1200px;
 margin:auto;
 padding:20px;
 }
 
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 gap:20px;
 }
 
@@ -40,6 +45,10 @@ background:white;
 padding:20px;
 border-radius:8px;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+margin-top:0;
 }
 
 button{
@@ -52,6 +61,13 @@ border-radius:5px;
 cursor:pointer;
 }
 
+footer{
+text-align:center;
+padding:20px;
+background:#eee;
+margin-top:40px;
+}
+
 </style>
 
 </head>
@@ -60,7 +76,9 @@ cursor:pointer;
 
 <header>
 
-<h1>Painel de Vagas de Emprego</h1>
+<img src="logo.png" class="logo">
+
+<h2>Painel de Vagas de Emprego</h2>
 
 <p>Vagas atualizadas do SINE de Caxias do Sul</p>
 
@@ -73,37 +91,78 @@ cursor:pointer;
 <div class="grid">
 
 <div class="card">
-
 <h3>Agente de Vendas de Serviços</h3>
-
 <p><b>Código:</b> 8877050</p>
 <p><b>Bairro:</b> Centro</p>
 <p><b>Salário:</b> R$ 2.000</p>
-
-<button onclick="alert('Anote o código da vaga e vá ao SINE Caxias do Sul - Rua Bento Gonçalves, 1901')">
-Como se candidatar
-</button>
-
+<button onclick="alert('Anote o código da vaga e compareça ao SINE Caxias do Sul - Rua Bento Gonçalves, 1901')">Como se candidatar</button>
 </div>
 
 <div class="card">
-
 <h3>Ajudante de Açougueiro</h3>
-
 <p><b>Código:</b> 8836551</p>
 <p><b>Bairro:</b> Centro</p>
 <p><b>Salário:</b> R$ 1.914</p>
+<button onclick="alert('Anote o código da vaga e compareça ao SINE Caxias do Sul - Rua Bento Gonçalves, 1901')">Como se candidatar</button>
+</div>
 
-<button onclick="alert('Anote o código da vaga e vá ao SINE Caxias do Sul - Rua Bento Gonçalves, 1901')">
-Como se candidatar
-</button>
+<div class="card">
+<h3>Ajudante de Obras</h3>
+<p><b>Código:</b> 8833337</p>
+<p><b>Bairro:</b> Diversos</p>
+<p><b>Salário:</b> R$ 2.200</p>
+<button onclick="alert('Anote o código da vaga e compareça ao SINE Caxias do Sul - Rua Bento Gonçalves, 1901')">Como se candidatar</button>
+</div>
 
+<div class="card">
+<h3>Ajustador Mecânico</h3>
+<p><b>Código:</b> 8863340</p>
+<p><b>Bairro:</b> Presidente Vargas</p>
+<p><b>Salário:</b> R$ 3.500</p>
+<button onclick="alert('Anote o código da vaga e compareça ao SINE Caxias do Sul - Rua Bento Gonçalves, 1901')">Como se candidatar</button>
+</div>
+
+<div class="card">
+<h3>Auxiliar Administrativo</h3>
+<p><b>Código:</b> 8733044</p>
+<p><b>Bairro:</b> Desvio Rizzo</p>
+<p><b>Salário:</b> R$ 1.621</p>
+<button onclick="alert('Anote o código da vaga e compareça ao SINE Caxias do Sul - Rua Bento Gonçalves, 1901')">Como se candidatar</button>
+</div>
+
+<div class="card">
+<h3>Auxiliar de Cozinha</h3>
+<p><b>Código:</b> 8762288</p>
+<p><b>Bairro:</b> Panazzolo</p>
+<p><b>Salário:</b> R$ 1.900</p>
+<button onclick="alert('Anote o código da vaga e compareça ao SINE Caxias do Sul - Rua Bento Gonçalves, 1901')">Como se candidatar</button>
+</div>
+
+<div class="card">
+<h3>Eletricista</h3>
+<p><b>Código:</b> 8777795</p>
+<p><b>Bairro:</b> Panazzolo</p>
+<p><b>Salário:</b> R$ 2.393</p>
+<button onclick="alert('Anote o código da vaga e compareça ao SINE Caxias do Sul - Rua Bento Gonçalves, 1901')">Como se candidatar</button>
+</div>
+
+<div class="card">
+<h3>Motorista Entregador</h3>
+<p><b>Código:</b> 8876871</p>
+<p><b>Bairro:</b> São Ciro</p>
+<p><b>Salário:</b> R$ 2.889</p>
+<button onclick="alert('Anote o código da vaga e compareça ao SINE Caxias do Sul - Rua Bento Gonçalves, 1901')">Como se candidatar</button>
 </div>
 
 </div>
 
 </div>
+
+<footer>
+
+As vagas são divulgadas pelo SINE Caxias do Sul e podem ser alteradas ou encerradas sem aviso prévio.
+
+</footer>
 
 </body>
-
 </html>
